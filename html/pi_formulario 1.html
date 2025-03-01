@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador Formulario</title>
+    <link rel="stylesheet" href="../css/pi_formulario 1.css">
+</head>
+<body>
+    <form>        
+            <div>
+            <label for="nome">Nome:</label>               
+            <input type="text" id="nome" required>
+            </div>
+            <div>
+                <label for="cpf">CPF:</label>
+                <input type="cpf" placeholder="***.***.***-**" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>                
+                <input type="email" required>
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <input type="cidade">
+            </div>                
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="endereco">
+            </div>
+            <div>
+                <label for="bairro">Bairro:</label>
+                <input type="bairro">
+            </div>
+            <div>
+                <label for="cep">CEP</label>
+                <input type="cep" placeholder="**.***-***"required>
+            </div>  
+            <div>       
+                    
+                <label for="date">Data de Nascimento: </label>
+                    
+                <input type="date" placeholder="dd/mm/aaaa" required>
+            </div>
+                
+                <div>
+                    <label for="genero">Gênero: </label>
+                    
+                    <select id="genero"name="genero"> 
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino" selected>Feminino</option>
+                        <option value="nao informar">Não informar</option>
+                    </select>                    
+                </div>
+                <div>
+                    <label for="password">Crie uma senha: </label>
+                    <input type="password"placeholder="Minimo 8 caracteres">                
+                </div>
+                
+                <label for="optl">
+                    <input type="checkbox"id="option" name="option" required> Aceito os termos de uso                    
+                </label> 
+                
+                <button type="submit" value=><a href="../html/pi_login 1.html">Cadastrar</a></button>
+
+        
+    </form>
+    
+</body>
+</html>
